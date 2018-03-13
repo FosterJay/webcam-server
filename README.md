@@ -19,9 +19,9 @@ The script uses port 1895 by default.
 
 To allow connections from outside your network, you'll have to port forward to it on your router.
 
-Run `python webcam-server.py -s` in the terminal, with the current working directory set as the location of webcam-server.py.
+To run the server, type `python webcam-server.py -s` in the terminal, with the current working directory set as the location of webcam-server.py.
 
 
 ### Connecting To A Server
 
-Run `python webcam-server.py` or `python webcam-server.py -c`, with the current working directory set as the location of webcam-server.py.
+To connect to a server, type `python webcam-server.py` or `python webcam-server.py -c`, with the current working directory set as the location of webcam-server.py.
