@@ -210,7 +210,7 @@ class Server:
         self.__sock = socket.socket()
 
     def __listen(self):
-        ''' Background thread class for listening for '''
+        ''' Background thread class for listening for new connections.'''
         while self.__running:
             try:
                 if read_ready(self.__sock, 1) != 0: continue  # wait 1 second for a client to accept. Allows enough time to exit when told to stop, and to accept incoming connections
